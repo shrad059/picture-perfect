@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416F3D382C576CBE0007AE44 /* smile_for_the_picApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416F3D372C576CBE0007AE44 /* smile_for_the_picApp.swift */; };
+		416F3D3A2C576CBE0007AE44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416F3D392C576CBE0007AE44 /* ContentView.swift */; };
+		416F3D3E2C576CC00007AE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416F3D3D2C576CC00007AE44 /* Assets.xcassets */; };
+		416F3D412C576CC00007AE44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416F3D402C576CC00007AE44 /* Preview Assets.xcassets */; };
+		416F3D4B2C576CC00007AE44 /* smile_for_the_picTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416F3D4A2C576CC00007AE44 /* smile_for_the_picTests.swift */; };
+		416F3D552C576CC00007AE44 /* smile_for_the_picUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416F3D542C576CC00007AE44 /* smile_for_the_picUITests.swift */; };
+		416F3D572C576CC00007AE44 /* smile_for_the_picUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416F3D562C576CC00007AE44 /* smile_for_the_picUITestsLaunchTests.swift */; };
+		416F3D642C576D8F0007AE44 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416F3D632C576D8F0007AE44 /* CameraView.swift */; };
+		416F3D662C57708E0007AE44 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416F3D652C57708E0007AE44 /* CameraService.swift */; };
+		416F3D682C5771330007AE44 /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416F3D672C5771330007AE44 /* CustomCameraView.swift */; };
+		9C583CE51DF2EE65C0162734 /* Pods_smile_for_the_pic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B480CAF2A449FBE6986854 /* Pods_smile_for_the_pic.framework */; };
+		A180894D5182961B21CD6474 /* Pods_smile_for_the_pic_smile_for_the_picUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051602F2794DE4170520A3E /* Pods_smile_for_the_pic_smile_for_the_picUITests.framework */; };
+		FBCE57098AE4C10B554B2D46 /* Pods_smile_for_the_picTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B708D5746C918D3318F69F96 /* Pods_smile_for_the_picTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		416F3D472C576CC00007AE44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416F3D2C2C576CBE0007AE44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416F3D332C576CBE0007AE44;
+			remoteInfo = "smile-for-the-pic";
+		};
+		416F3D512C576CC00007AE44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416F3D2C2C576CBE0007AE44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416F3D332C576CBE0007AE44;
+			remoteInfo = "smile-for-the-pic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2748FB85AB01D007E4390152 /* Pods-smile-for-the-pic-smile-for-the-picUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smile-for-the-pic-smile-for-the-picUITests.release.xcconfig"; path = "Target Support Files/Pods-smile-for-the-pic-smile-for-the-picUITests/Pods-smile-for-the-pic-smile-for-the-picUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31B480CAF2A449FBE6986854 /* Pods_smile_for_the_pic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smile_for_the_pic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4051602F2794DE4170520A3E /* Pods_smile_for_the_pic_smile_for_the_picUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smile_for_the_pic_smile_for_the_picUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		416F3D342C576CBE0007AE44 /* smile-for-the-pic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smile-for-the-pic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		416F3D372C576CBE0007AE44 /* smile_for_the_picApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smile_for_the_picApp.swift; sourceTree = "<group>"; };
+		416F3D392C576CBE0007AE44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		416F3D3D2C576CC00007AE44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		416F3D402C576CC00007AE44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		416F3D462C576CC00007AE44 /* smile-for-the-picTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "smile-for-the-picTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		416F3D4A2C576CC00007AE44 /* smile_for_the_picTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smile_for_the_picTests.swift; sourceTree = "<group>"; };
+		416F3D502C576CC00007AE44 /* smile-for-the-picUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "smile-for-the-picUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		416F3D542C576CC00007AE44 /* smile_for_the_picUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smile_for_the_picUITests.swift; sourceTree = "<group>"; };
+		416F3D562C576CC00007AE44 /* smile_for_the_picUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smile_for_the_picUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		416F3D632C576D8F0007AE44 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		416F3D652C57708E0007AE44 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		416F3D672C5771330007AE44 /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
+		4CB2B427B1AAF807783DEF6D /* Pods-smile-for-the-picTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smile-for-the-picTests.debug.xcconfig"; path = "Target Support Files/Pods-smile-for-the-picTests/Pods-smile-for-the-picTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77D407467F4137EEBE5AE878 /* Pods-smile-for-the-pic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smile-for-the-pic.debug.xcconfig"; path = "Target Support Files/Pods-smile-for-the-pic/Pods-smile-for-the-pic.debug.xcconfig"; sourceTree = "<group>"; };
+		AE3BEAEFAD469B4B585B505A /* Pods-smile-for-the-pic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smile-for-the-pic.release.xcconfig"; path = "Target Support Files/Pods-smile-for-the-pic/Pods-smile-for-the-pic.release.xcconfig"; sourceTree = "<group>"; };
+		AF6E9105AC238C9B88F25C05 /* Pods-smile-for-the-picTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smile-for-the-picTests.release.xcconfig"; path = "Target Support Files/Pods-smile-for-the-picTests/Pods-smile-for-the-picTests.release.xcconfig"; sourceTree = "<group>"; };
+		B708D5746C918D3318F69F96 /* Pods_smile_for_the_picTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smile_for_the_picTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA98F2B3C07EF2DB6CC7E95 /* Pods-smile-for-the-pic-smile-for-the-picUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smile-for-the-pic-smile-for-the-picUITests.debug.xcconfig"; path = "Target Support Files/Pods-smile-for-the-pic-smile-for-the-picUITests/Pods-smile-for-the-pic-smile-for-the-picUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416F3D312C576CBE0007AE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C583CE51DF2EE65C0162734 /* Pods_smile_for_the_pic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416F3D432C576CC00007AE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCE57098AE4C10B554B2D46 /* Pods_smile_for_the_picTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416F3D4D2C576CC00007AE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A180894D5182961B21CD6474 /* Pods_smile_for_the_pic_smile_for_the_picUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1132B9DC117676A7AF01E883 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77D407467F4137EEBE5AE878 /* Pods-smile-for-the-pic.debug.xcconfig */,
+				AE3BEAEFAD469B4B585B505A /* Pods-smile-for-the-pic.release.xcconfig */,
+				CEA98F2B3C07EF2DB6CC7E95 /* Pods-smile-for-the-pic-smile-for-the-picUITests.debug.xcconfig */,
+				2748FB85AB01D007E4390152 /* Pods-smile-for-the-pic-smile-for-the-picUITests.release.xcconfig */,
+				4CB2B427B1AAF807783DEF6D /* Pods-smile-for-the-picTests.debug.xcconfig */,
+				AF6E9105AC238C9B88F25C05 /* Pods-smile-for-the-picTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		416F3D2B2C576CBE0007AE44 = {
+			isa = PBXGroup;
+			children = (
+				416F3D362C576CBE0007AE44 /* smile-for-the-pic */,
+				416F3D492C576CC00007AE44 /* smile-for-the-picTests */,
+				416F3D532C576CC00007AE44 /* smile-for-the-picUITests */,
+				416F3D352C576CBE0007AE44 /* Products */,
+				1132B9DC117676A7AF01E883 /* Pods */,
+				E9C66C495A5272AD41E3ECCF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		416F3D352C576CBE0007AE44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416F3D342C576CBE0007AE44 /* smile-for-the-pic.app */,
+				416F3D462C576CC00007AE44 /* smile-for-the-picTests.xctest */,
+				416F3D502C576CC00007AE44 /* smile-for-the-picUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416F3D362C576CBE0007AE44 /* smile-for-the-pic */ = {
+			isa = PBXGroup;
+			children = (
+				416F3D372C576CBE0007AE44 /* smile_for_the_picApp.swift */,
+				416F3D392C576CBE0007AE44 /* ContentView.swift */,
+				416F3D3D2C576CC00007AE44 /* Assets.xcassets */,
+				416F3D3F2C576CC00007AE44 /* Preview Content */,
+				416F3D632C576D8F0007AE44 /* CameraView.swift */,
+				416F3D652C57708E0007AE44 /* CameraService.swift */,
+				416F3D672C5771330007AE44 /* CustomCameraView.swift */,
+			);
+			path = "smile-for-the-pic";
+			sourceTree = "<group>";
+		};
+		416F3D3F2C576CC00007AE44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				416F3D402C576CC00007AE44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		416F3D492C576CC00007AE44 /* smile-for-the-picTests */ = {
+			isa = PBXGroup;
+			children = (
+				416F3D4A2C576CC00007AE44 /* smile_for_the_picTests.swift */,
+			);
+			path = "smile-for-the-picTests";
+			sourceTree = "<group>";
+		};
+		416F3D532C576CC00007AE44 /* smile-for-the-picUITests */ = {
+			isa = PBXGroup;
+			children = (
+				416F3D542C576CC00007AE44 /* smile_for_the_picUITests.swift */,
+				416F3D562C576CC00007AE44 /* smile_for_the_picUITestsLaunchTests.swift */,
+			);
+			path = "smile-for-the-picUITests";
+			sourceTree = "<group>";
+		};
+		E9C66C495A5272AD41E3ECCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31B480CAF2A449FBE6986854 /* Pods_smile_for_the_pic.framework */,
+				4051602F2794DE4170520A3E /* Pods_smile_for_the_pic_smile_for_the_picUITests.framework */,
+				B708D5746C918D3318F69F96 /* Pods_smile_for_the_picTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416F3D332C576CBE0007AE44 /* smile-for-the-pic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416F3D5A2C576CC00007AE44 /* Build configuration list for PBXNativeTarget "smile-for-the-pic" */;
+			buildPhases = (
+				E135FBA3BF07D34491CB76F4 /* [CP] Check Pods Manifest.lock */,
+				416F3D302C576CBE0007AE44 /* Sources */,
+				416F3D312C576CBE0007AE44 /* Frameworks */,
+				416F3D322C576CBE0007AE44 /* Resources */,
+				12EFB31C6C035298A58DFCDF /* [CP] Embed Pods Frameworks */,
+				51FFBE5AAB0AD177CC07C661 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "smile-for-the-pic";
+			productName = "smile-for-the-pic";
+			productReference = 416F3D342C576CBE0007AE44 /* smile-for-the-pic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		416F3D452C576CC00007AE44 /* smile-for-the-picTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416F3D5D2C576CC00007AE44 /* Build configuration list for PBXNativeTarget "smile-for-the-picTests" */;
+			buildPhases = (
+				3FF411BC18660EC041EBD5F6 /* [CP] Check Pods Manifest.lock */,
+				416F3D422C576CC00007AE44 /* Sources */,
+				416F3D432C576CC00007AE44 /* Frameworks */,
+				416F3D442C576CC00007AE44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416F3D482C576CC00007AE44 /* PBXTargetDependency */,
+			);
+			name = "smile-for-the-picTests";
+			productName = "smile-for-the-picTests";
+			productReference = 416F3D462C576CC00007AE44 /* smile-for-the-picTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		416F3D4F2C576CC00007AE44 /* smile-for-the-picUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416F3D602C576CC00007AE44 /* Build configuration list for PBXNativeTarget "smile-for-the-picUITests" */;
+			buildPhases = (
+				E7081ACBA5F0D62D416F5BFB /* [CP] Check Pods Manifest.lock */,
+				416F3D4C2C576CC00007AE44 /* Sources */,
+				416F3D4D2C576CC00007AE44 /* Frameworks */,
+				416F3D4E2C576CC00007AE44 /* Resources */,
+				F7A175FB8D7268D42A371265 /* [CP] Embed Pods Frameworks */,
+				5408F1CDFBEE6A1EE79A7062 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416F3D522C576CC00007AE44 /* PBXTargetDependency */,
+			);
+			name = "smile-for-the-picUITests";
+			productName = "smile-for-the-picUITests";
+			productReference = 416F3D502C576CC00007AE44 /* smile-for-the-picUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416F3D2C2C576CBE0007AE44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					416F3D332C576CBE0007AE44 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					416F3D452C576CC00007AE44 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 416F3D332C576CBE0007AE44;
+					};
+					416F3D4F2C576CC00007AE44 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 416F3D332C576CBE0007AE44;
+					};
+				};
+			};
+			buildConfigurationList = 416F3D2F2C576CBE0007AE44 /* Build configuration list for PBXProject "smile-for-the-pic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 416F3D2B2C576CBE0007AE44;
+			productRefGroup = 416F3D352C576CBE0007AE44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416F3D332C576CBE0007AE44 /* smile-for-the-pic */,
+				416F3D452C576CC00007AE44 /* smile-for-the-picTests */,
+				416F3D4F2C576CC00007AE44 /* smile-for-the-picUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416F3D322C576CBE0007AE44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416F3D412C576CC00007AE44 /* Preview Assets.xcassets in Resources */,
+				416F3D3E2C576CC00007AE44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416F3D442C576CC00007AE44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416F3D4E2C576CC00007AE44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12EFB31C6C035298A58DFCDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic/Pods-smile-for-the-pic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic/Pods-smile-for-the-pic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic/Pods-smile-for-the-pic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FF411BC18660EC041EBD5F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smile-for-the-picTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51FFBE5AAB0AD177CC07C661 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic/Pods-smile-for-the-pic-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic/Pods-smile-for-the-pic-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic/Pods-smile-for-the-pic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5408F1CDFBEE6A1EE79A7062 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic-smile-for-the-picUITests/Pods-smile-for-the-pic-smile-for-the-picUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic-smile-for-the-picUITests/Pods-smile-for-the-pic-smile-for-the-picUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic-smile-for-the-picUITests/Pods-smile-for-the-pic-smile-for-the-picUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E135FBA3BF07D34491CB76F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smile-for-the-pic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7081ACBA5F0D62D416F5BFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smile-for-the-pic-smile-for-the-picUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A175FB8D7268D42A371265 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic-smile-for-the-picUITests/Pods-smile-for-the-pic-smile-for-the-picUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic-smile-for-the-picUITests/Pods-smile-for-the-pic-smile-for-the-picUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smile-for-the-pic-smile-for-the-picUITests/Pods-smile-for-the-pic-smile-for-the-picUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416F3D302C576CBE0007AE44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416F3D662C57708E0007AE44 /* CameraService.swift in Sources */,
+				416F3D3A2C576CBE0007AE44 /* ContentView.swift in Sources */,
+				416F3D382C576CBE0007AE44 /* smile_for_the_picApp.swift in Sources */,
+				416F3D682C5771330007AE44 /* CustomCameraView.swift in Sources */,
+				416F3D642C576D8F0007AE44 /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416F3D422C576CC00007AE44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416F3D4B2C576CC00007AE44 /* smile_for_the_picTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416F3D4C2C576CC00007AE44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416F3D572C576CC00007AE44 /* smile_for_the_picUITestsLaunchTests.swift in Sources */,
+				416F3D552C576CC00007AE44 /* smile_for_the_picUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		416F3D482C576CC00007AE44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416F3D332C576CBE0007AE44 /* smile-for-the-pic */;
+			targetProxy = 416F3D472C576CC00007AE44 /* PBXContainerItemProxy */;
+		};
+		416F3D522C576CC00007AE44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416F3D332C576CBE0007AE44 /* smile-for-the-pic */;
+			targetProxy = 416F3D512C576CC00007AE44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		416F3D582C576CC00007AE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		416F3D592C576CC00007AE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		416F3D5B2C576CC00007AE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D407467F4137EEBE5AE878 /* Pods-smile-for-the-pic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"smile-for-the-pic/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HK5UFBJBM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = NSCameraUsageDescription;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = NSPhotoLibraryUsageDescription;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shrad.smile-for-the-pic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		416F3D5C2C576CC00007AE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3BEAEFAD469B4B585B505A /* Pods-smile-for-the-pic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"smile-for-the-pic/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HK5UFBJBM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = NSCameraUsageDescription;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = NSPhotoLibraryUsageDescription;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shrad.smile-for-the-pic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		416F3D5E2C576CC00007AE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB2B427B1AAF807783DEF6D /* Pods-smile-for-the-picTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HK5UFBJBM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shrad.smile-for-the-picTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smile-for-the-pic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/smile-for-the-pic";
+			};
+			name = Debug;
+		};
+		416F3D5F2C576CC00007AE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6E9105AC238C9B88F25C05 /* Pods-smile-for-the-picTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HK5UFBJBM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shrad.smile-for-the-picTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smile-for-the-pic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/smile-for-the-pic";
+			};
+			name = Release;
+		};
+		416F3D612C576CC00007AE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA98F2B3C07EF2DB6CC7E95 /* Pods-smile-for-the-pic-smile-for-the-picUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HK5UFBJBM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shrad.smile-for-the-picUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "smile-for-the-pic";
+			};
+			name = Debug;
+		};
+		416F3D622C576CC00007AE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2748FB85AB01D007E4390152 /* Pods-smile-for-the-pic-smile-for-the-picUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HK5UFBJBM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shrad.smile-for-the-picUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "smile-for-the-pic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416F3D2F2C576CBE0007AE44 /* Build configuration list for PBXProject "smile-for-the-pic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416F3D582C576CC00007AE44 /* Debug */,
+				416F3D592C576CC00007AE44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416F3D5A2C576CC00007AE44 /* Build configuration list for PBXNativeTarget "smile-for-the-pic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416F3D5B2C576CC00007AE44 /* Debug */,
+				416F3D5C2C576CC00007AE44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416F3D5D2C576CC00007AE44 /* Build configuration list for PBXNativeTarget "smile-for-the-picTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416F3D5E2C576CC00007AE44 /* Debug */,
+				416F3D5F2C576CC00007AE44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416F3D602C576CC00007AE44 /* Build configuration list for PBXNativeTarget "smile-for-the-picUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416F3D612C576CC00007AE44 /* Debug */,
+				416F3D622C576CC00007AE44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416F3D2C2C576CBE0007AE44 /* Project object */;
+}
