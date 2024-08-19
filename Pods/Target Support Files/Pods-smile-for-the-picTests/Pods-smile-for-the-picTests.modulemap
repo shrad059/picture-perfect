@@ -1,6 +1,0 @@
-framework module Pods_smile_for_the_picTests {
-  umbrella header "Pods-smile-for-the-picTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
